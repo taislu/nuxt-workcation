@@ -4,7 +4,7 @@
 
     <div>
       <div class="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto px-8 lg:px-12 py-8">
-        <h2 class="text-xl text-gray-900">Popular destinations</h2>
+        <h2 class="text-xl text-indigo-700">Popular Destinations</h2>
         <p class="text-gray-600">
           A selection of great work-friendly cities with lots to see and
           explore.
@@ -24,9 +24,9 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import DestinationCard from '../components/DestinationCard'
 import WorkcationTop from '../components/WorkcationTop'
-import { popularDestinationData } from '../data/destinations'
 
 export default {
   name: 'App',
@@ -34,11 +34,7 @@ export default {
     DestinationCard,
     WorkcationTop
   },
-  data() {
-    return {
-      popularDestinations: popularDestinationData
-    }
-  }
+  computed: mapState(['popularDestinations'])
 }
 </script>
 
