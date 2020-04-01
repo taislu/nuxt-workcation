@@ -1,5 +1,8 @@
 <template>
+  <!-- 
   <div id="app">
+  -->
+  <div>
     <WorkcationTop />
 
     <div>

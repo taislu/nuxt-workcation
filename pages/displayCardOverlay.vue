@@ -1,5 +1,8 @@
 <template>
+  <!-- 
   <div id="app" class="antialiased text-gray-900">
+  -->
+  <div class="antialiased text-gray-900">
     <div class="bg-gray-200 min-h-screen p-16 flex flex-col justify-center">
       <PropertyCard :property="property" />
     </div>
