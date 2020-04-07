@@ -15,7 +15,7 @@ import PropertyCard from '../components/CardOverlay'
 export default {
   name: 'App',
   components: {
-    PropertyCard
+    PropertyCard,
   },
   data: () => ({
     property: {
@@ -28,8 +28,8 @@ export default {
       priceInCents: 190000,
       formattedPrice: '$1,900.00',
       reviewCount: 34,
-      rating: 4
-    }
-  })
+      rating: 4,
+    },
+  }),
 }
 </script>

@@ -35,9 +35,9 @@ export default {
   name: 'App',
   components: {
     DestinationCard,
-    WorkcationTop
+    WorkcationTop,
   },
-  computed: mapState(['popularDestinations'])
+  computed: mapState(['popularDestinations']),
 }
 </script>
 

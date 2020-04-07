@@ -35,13 +35,13 @@ export default {
   name: 'App',
   components: {
     DestinationCard,
-    WorkcationTop
+    WorkcationTop,
   },
   data() {
     return {
-      popularDestinations: popularDestinationData
+      popularDestinations: popularDestinationData,
     }
-  }
+  },
 }
 </script>
 
